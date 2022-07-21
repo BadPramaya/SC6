@@ -57,7 +57,7 @@ global.thumb2 = readFileSync('./me2.jpeg')
 global.multiplier = 69 // The higher, The harder levelup
 
 //Text here
-global.me = 'AzzBot-MD'
+global.me = 'ʜᴇʟʟ ʙᴏʏ ©️x_ᴘʀᴀᴍᴀʏᴀ_x'
 global.str = '-------------'
 global.l = '「'
 global.r = '」'
