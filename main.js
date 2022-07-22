@@ -151,20 +151,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '┌─♬
-│「 ʜᴇʟʟᴏ ᴜѕᴇʀ🌚 」
-└┬♬ 「@user !」
-   │❏  ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ
-   │     ⚘  ${@subject\n'}
-   │❏ ᴛʜᴀɴᴋѕ ғᴏʀ ᴊᴏɪɴ ᴛʜɪѕ ɢʀᴏᴜᴩ🌝
-   │          ⚚ʜᴇʟʟ ʙ͢ᴏʏ ᴍᴅ      
-   └───────────────┈❦'
-  conn.bye = ' ┌─♬
-│「 ɢᴏᴏᴅ ʙʏᴇ ᴜѕᴇʀ🌝 」
-└┬♬ 「 ${ @user !]}  」
-   │
-   │       ⚚ʜᴇʟʟ ʙ͢ᴏʏ ᴍᴅ
-   └───────────────┈❦'
+  conn.welcome = 'Hai, @user!\n𝘞𝘌𝘓𝘊𝘖𝘔𝘌🥀 to @subject\n\n@desc'
+  conn.bye = '𝘎𝘖𝘖𝘋 𝘉𝘠𝘌👋 @user!'
   conn.spromote = '@user now admin!'
   conn.sdemote = '@user now not admin!'
   conn.handler = handler.handler.bind(global.conn)
